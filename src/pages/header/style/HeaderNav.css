@@ -1,0 +1,46 @@
+/* Top Nav coloring */
+.navbar-default {
+  background-color: white;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+/* */
+.nav_zero_bottom {
+  color: white;
+}
+
+div.container {
+  width: 100%;
+}
+
+.nav_left_pad {
+  width: 57%;
+  display: inline-block;
+  align-content: center;
+}
+
+.nav_right_pad {
+  width: 40%;
+  display: inline-block;
+  align-content: center;
+}
+
+.navbar-nav>li>a:hover {
+  /*   background-color: teal; */
+  
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+ul.nav.navbar-nav {
+  color: black;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
