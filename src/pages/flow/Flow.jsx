@@ -16,7 +16,7 @@ export default class Flow extends React.Component {
           <Route exact path='/cart' component={Cart} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/about' component={About} />
-          <Route exact path='/shopping' component={Shopping} />
+          <Route path='/shopping' component={Shopping} />
           <Route exact path='/donate' component={Donate} />
         </Switch>
       </main>
