@@ -19,7 +19,7 @@ class TopNav extends React.Component {
             Donate
           </NavItem>
         </Nav>
-        <Nav pullRight>
+        <Nav style={{marginRight: "5px" }} pullRight>
           <NavItem componentClass={Link} href="#" to="#" active={location.pathname === '#'}>
             Register/Login
           </NavItem>

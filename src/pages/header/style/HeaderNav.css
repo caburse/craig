@@ -5,42 +5,31 @@
   background-repeat: no-repeat;
 }
 
-/* */
-.nav_zero_bottom {
-  color: white;
+/** Logo styling **/
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
 div.container {
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .nav_left_pad {
-  width: 57%;
-  display: inline-block;
-  align-content: center;
+    width: 57%;
+    display: inline-block;
+    align-content: center;
 }
 
 .nav_right_pad {
-  width: 40%;
-  display: inline-block;
-  align-content: center;
-}
-
-.navbar-nav>li>a:hover {
-  /*   background-color: teal; */
-  
+    width: 40%;
+    display: inline-block;
+    align-content: center;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
-}
-
-ul.nav.navbar-nav {
-  color: black;
-  color: inherit;
-}
-
-a {
-  color: inherit;
 }
 

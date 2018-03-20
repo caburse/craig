@@ -1,4 +1,27 @@
 body {
-  color: #000;
-  font-family: 'Alfa Slab One', sans-serif;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  padding-top: 90px;
+}
+
+/** footer **/
+p.nav_center.navbar-text {
+  color: black;
+}
+
+/** Contact dropdown **/
+button.dropdown-toggle.btn.btn-default {
+  color: black;
+}
+
+/** Header **/
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+.trim_body {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }

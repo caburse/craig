@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import Logo from './images/sf_logo.png';
 import './style/HeaderNav.css';
 
 class MenuNav extends React.Component {
@@ -9,7 +10,7 @@ class MenuNav extends React.Component {
       <Navbar className="nav_zero_bottom">
         <Navbar.Header className="nav_right_pad">
           <Navbar.Brand>
-            <a href="/">Logo</a>
+            <a href="/"><img src={Logo} width="50px" height="50px" /></a>
           </Navbar.Brand>
         </Navbar.Header>
         <Nav className="nav_left_pad">
@@ -20,16 +21,16 @@ class MenuNav extends React.Component {
           </NavDropdown>
           <NavItem componentClass={Link} href="/shopping" to="/shopping" active={location.pathname === '/shopping'}>
             Girls
-          </NavItem>
+            </NavItem>
           <NavItem componentClass={Link} href="/shopping" to="/shopping" active={location.pathname === '/shopping'}>
             Men
-          </NavItem>
+            </NavItem>
           <NavItem componentClass={Link} href="/shopping" to="/shopping" active={location.pathname === '/shopping'}>
             Boys
-          </NavItem>
+            </NavItem>
           <NavItem componentClass={Link} href="/shopping" to="/shopping" active={location.pathname === '/shopping'}>
             Custom
-          </NavItem>
+            </NavItem>
         </Nav>
       </Navbar>
     );

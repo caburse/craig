@@ -4,7 +4,7 @@
  "description": "Who cares...",
  "main": "index.js",
  "scripts": {
-  "start": "webpack-dev-server --progress --inline",
+  "start": "webpack-dev-server --progress",
   "build": "webpack"
  },
  "dependencies": {
@@ -18,17 +18,18 @@
   "react-router-dom": "^4.2.2",
   "react-sticky-header": "^0.1.9",
   "url-loader": "^1.0.1",
-  "webfontloader": "^1.6.28",
-  "webpack": "^4.1.1",
-  "webpack-dev-server": "^3.1.1"
+  "webfontloader": "^1.6.28"
  },
  "devDependencies": {
   "babel-loader": "^7.1.4",
-  "style-loader": "^0.20.3",
-  "webpack-cli": "^2.0.11",
   "css-loader": "^1.0.1",
+  "file-loader": "^1.1.11",
+  "style-loader": "^0.20.3",
   "url-loader": "^0.28.10",
-  "file-loader": "^1.1.11"
+  "webpack-cli": "^2.0.11",
+  "webpack-dev-middleware": "^3.0.1",
+  "webpack": "^4.1.1",
+  "webpack-dev-server": "^3.1.1"
  },
  "keywords": [],
  "author": "",

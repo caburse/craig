@@ -6,7 +6,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="main_img" >
-        <img style={{ paddingTop: "10%" }} src={MainImage} width="75%" height="75%" />
+        <img src={MainImage} width="75%" height="75%" />
       </div>
     );
   }
