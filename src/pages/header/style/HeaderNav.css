@@ -29,6 +29,11 @@ div.container {
     align-content: center;
 }
 
+/* Handles when we're not hovering over link */
+.dropdown .dropdown-menu {
+  display: none;
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }

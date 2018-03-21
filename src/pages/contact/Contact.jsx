@@ -1,6 +1,5 @@
 import React from 'react';
-import { DropdownButton, MenuItem, ButtonToolbar } from 'react-bootstrap';
-import './style/Contact.css';
+import { DropdownButton, MenuItem } from 'react-bootstrap';
 
 export default class Contact extends React.Component {
   render() {
@@ -8,7 +7,7 @@ export default class Contact extends React.Component {
       <div className="trim_body">
         <h1>Contact Us</h1>
         <center>
-          <DropdownButton id="1" title="Please Select an Issue" key="1">
+          <DropdownButton title="Please Select an Issue" key="1" id="1">
             <MenuItem eventKey="1.1" active>Orders</MenuItem>
             <MenuItem eventKey="1.2">Returns</MenuItem>
             <MenuItem divider />

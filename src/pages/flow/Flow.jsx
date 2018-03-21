@@ -7,19 +7,19 @@ import About from '../about/About.jsx';
 import Shopping from '../shopping/Shopping.jsx';
 import Donate from '../donate/Donate.jsx';
 
-export default class Flow extends React.Component {
-  render() {
-    return (
-      <main>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/cart' component={Cart} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/about' component={About} />
-          <Route path='/shopping' component={Shopping} />
-          <Route exact path='/donate' component={Donate} />
-        </Switch>
-      </main>
-    );
-  }
+const Flow = () => {
+  return (
+    <main>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/cart' component={Cart} />
+        <Route exact path='/contact' component={Contact} />
+        <Route exact path='/about' component={About} />
+        <Route path='/shopping/:source' component={Shopping} />
+        <Route exact path='/donate' component={Donate} />
+      </Switch>
+    </main>
+  );
 }
+
+export default Flow
