@@ -2,7 +2,7 @@
 
 module.exports = {
 	mode : 'development',
-	entry : './src/sucka_free.js',
+	entry : './src/sucka_free.jsx',
 	output : {
 //		path: path.resolve(__dirname, "build"),
 		path: __dirname,
@@ -11,18 +11,13 @@ module.exports = {
 	devServer : {
 		inline:true,
 		compress: true,
-//		port: 9000,
 		historyApiFallback : {
 			index : './index.html'
 		}
 	},
+	devtool: 'eval-source-map',
 	module : {
 		rules : [ 
-			{test : /\.css?$/,use : [ 'style-loader', 'css-loader' ]},
-			{test : /\.(ttf|eot|woff|woff2)$/,use : 'file-loader?fonts/[name].[ext]'},
-			{test : /\.(jpg|png|svg)$/,use : [ 'url-loader?limit=10000' ]
-			// better to use 'file-loader' in prod
-			},
 			{
 				test : /\.jsx?$/,
 				exclude : /node_modules/,
@@ -32,6 +27,11 @@ module.exports = {
 						presets : [ 'env', 'react' ]
 					}
 				}
+			},
+			{test : /\.css?$/,use : [ 'style-loader', 'css-loader' ]},
+			{test : /\.(ttf|eot|woff|woff2)$/,use : 'file-loader?fonts/[name].[ext]'},
+			{test : /\.(jpg|png|svg)$/,use : [ 'url-loader?limit=10000' ]
+			// better to use 'file-loader' in prod
 			}
 		]
 	}

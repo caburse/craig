@@ -4,20 +4,18 @@
  "description": "Who cares...",
  "main": "index.js",
  "scripts": {
-  "start": "webpack-dev-server --progress",
+  "start": "webpack-dev-server --port 3000 --progress",
   "build": "webpack"
  },
  "dependencies": {
   "babel-core": "^6.26.0",
   "babel-preset-env": "^1.6.1",
   "babel-preset-react": "^6.24.1",
-  "css-loader": "^0.28.10",
   "react": "^16.2.0",
   "react-bootstrap": "^0.32.1",
   "react-dom": "^16.2.0",
   "react-router-dom": "^4.2.2",
   "react-sticky-header": "^0.1.9",
-  "url-loader": "^1.0.1",
   "webfontloader": "^1.6.28"
  },
  "devDependencies": {
@@ -25,7 +23,7 @@
   "css-loader": "^1.0.1",
   "file-loader": "^1.1.11",
   "style-loader": "^0.20.3",
-  "url-loader": "^0.28.10",
+  "url-loader": "^1.0.1",
   "webpack-cli": "^2.0.11",
   "webpack-dev-middleware": "^3.0.1",
   "webpack": "^4.1.1",

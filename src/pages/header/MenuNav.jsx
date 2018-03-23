@@ -17,14 +17,14 @@ class MenuNav extends React.Component {
       <Navbar className="nav_zero_bottom">
         <Navbar.Header className="nav_right_pad">
           <Navbar.Brand>
-            <a href="/"><img src={Logo} width="50px" height="50px" /></a>
+            <a onClick={this.handleClick('/')}><img src={Logo} width="50px" height="50px" /></a>
           </Navbar.Brand>
         </Navbar.Header>
         <Nav className="nav_left_pad">
           <NavDropdown id="1" eventKey={1} title="Women" onClick={this.handleClick( '/shopping/women' )} active={location.pathname === '/shopping/women'}>
-            <MenuItem eventKey={1.1}>Shirt</MenuItem>
-            <MenuItem eventKey={1.2}>Shoes</MenuItem>
-            <MenuItem eventKey={1.3}>Pants</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/women/shirt' )} eventKey={1.1}>Shirt</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/women/shoes' )} eventKey={1.2}>Shoes</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/women/pants' )} eventKey={1.3}>Pants</MenuItem>
           </NavDropdown>
           <NavDropdown id="2" eventKey={2} title="Girls" onClick={this.handleClick( '/shopping/girls' )} active={location.pathname === '/shopping/girls'}>
             <MenuItem eventKey={2.1}>Shirt</MenuItem>

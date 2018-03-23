@@ -30,11 +30,14 @@ div.container {
 }
 
 /* Handles when we're not hovering over link */
-.dropdown .dropdown-menu {
+li.dropdown .dropdown-menu {
   display: none;
 }
 
-.dropdown:hover .dropdown-menu {
+li.dropdown:hover .dropdown-menu {
   display: block;
 }
 
+li.dropdown:active .dropdown-menu {
+  display: block;
+}

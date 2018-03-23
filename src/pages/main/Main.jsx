@@ -7,13 +7,14 @@ import StickyHeader from 'react-sticky-header';
 
 const Main = () => {
   return (
-    <StickyHeader
-      header={
-        <HeaderNav />
-      }>
+    <div>
+      <StickyHeader
+        header={
+          <HeaderNav />
+        } />
       <Flow />
       <FooterNav />
-    </StickyHeader>
+    </div>
   );
 }
 

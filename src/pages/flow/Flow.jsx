@@ -22,4 +22,4 @@ const Flow = () => {
   );
 }
 
-export default Flow
+export default Flow;
