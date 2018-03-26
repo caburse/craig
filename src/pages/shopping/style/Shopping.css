@@ -1,0 +1,10 @@
+div.show-grid.row {
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.nav_center {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
