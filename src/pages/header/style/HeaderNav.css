@@ -18,15 +18,12 @@ div.container {
 }
 
 .nav_left_pad {
-    width: 57%;
-    display: inline-block;
-    align-content: center;
+  width: 450px;
+  margin: 0 auto;
 }
 
 .nav_right_pad {
-    width: 40%;
-    display: inline-block;
-    align-content: center;
+  width: 55px;
 }
 
 /* Handles when we're not hovering over link */

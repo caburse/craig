@@ -1,6 +1,5 @@
-div.show-grid.row {
-	padding-left: 5px;
-	padding-bottom: 5px;
+.show-grid > div > img {
+	margin: 5px;
 }
 
 .nav_center {

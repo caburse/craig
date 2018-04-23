@@ -15,7 +15,7 @@ const Flow = () => {
         <Route exact path='/cart' component={Cart} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/about' component={About} />
-        <Route path='/shopping/:source' component={Shopping} />
+        <Route path='/shopping/:source/:type?' component={Shopping} />
         <Route exact path='/donate' component={Donate} />
       </Switch>
     </main>

@@ -27,24 +27,24 @@ class MenuNav extends React.Component {
             <MenuItem onClick={this.handleClick( '/shopping/women/pants' )} eventKey={1.3}>Pants</MenuItem>
           </NavDropdown>
           <NavDropdown id="2" eventKey={2} title="Girls" onClick={this.handleClick( '/shopping/girls' )} active={location.pathname === '/shopping/girls'}>
-            <MenuItem eventKey={2.1}>Shirt</MenuItem>
-            <MenuItem eventKey={2.2}>Shoes</MenuItem>
-            <MenuItem eventKey={2.3}>Pants</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/girls/shirt' )} eventKey={2.1}>Shirt</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/girls/shoes' )} eventKey={2.2}>Shoes</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/girls/pants' )} eventKey={2.3}>Pants</MenuItem>
           </NavDropdown>
           <NavDropdown id="3" eventKey={3} title="Men" onClick={this.handleClick( '/shopping/men' )} active={location.pathname === '/shopping/men'}>
-            <MenuItem eventKey={3.1}>Shirt</MenuItem>
-            <MenuItem eventKey={3.2}>Shoes</MenuItem>
-            <MenuItem eventKey={3.3}>Pants</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/men/shirt' )} eventKey={3.1}>Shirt</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/men/shoes' )} eventKey={3.2}>Shoes</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/men/pants' )} eventKey={3.3}>Pants</MenuItem>
           </NavDropdown>
           <NavDropdown id="4" eventKey={4} title="Boys" onClick={this.handleClick( '/shopping/boys' )} active={location.pathname === '/shopping/boys'}>
-            <MenuItem eventKey={4.1}>Shirt</MenuItem>
-            <MenuItem eventKey={4.2}>Shoes</MenuItem>
-            <MenuItem eventKey={4.3}>Pants</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/boys/shirt' )} eventKey={4.1}>Shirt</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/boys/shoes' )} eventKey={4.2}>Shoes</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/boys/pants' )} eventKey={4.3}>Pants</MenuItem>
           </NavDropdown>
           <NavDropdown id="5" eventKey={5} title="Custom" onClick={this.handleClick( '/shopping/custom' )} active={location.pathname === '/shopping/custom'}>
-            <MenuItem eventKey={5.1}>Shirt</MenuItem>
-            <MenuItem eventKey={5.2}>Shoes</MenuItem>
-            <MenuItem eventKey={5.3}>Pants</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/custom/shirt' )} eventKey={5.1}>Shirt</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/custom/shoes' )} eventKey={5.2}>Shoes</MenuItem>
+            <MenuItem onClick={this.handleClick( '/shopping/custom/pants' )} eventKey={5.3}>Pants</MenuItem>
           </NavDropdown>
         </Nav>
       </Navbar>

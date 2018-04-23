@@ -1,8 +1,12 @@
-.main_img {
-  width: 100%;
+div.main_img {
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: none;
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+}
+
+div.slick-list {
+  height: 500px;
+  width: 500px;
+  margin: auto;
 }
